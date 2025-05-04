@@ -3,9 +3,9 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-text = 'купить промокод'
+text = 'купить промокод сегодня'
 
-vectorizer = vect_use()
+vectorizer = vect_use(8)
 vectors = vectorizer.transform(text)
 
 print("Индексы:", vectorizer.text_to_sequence(text))

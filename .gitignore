@@ -1,2 +1,15 @@
 .env
-*.csv
+.env.*
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+testings.py
+tools.py
+*.session
+.pypirc
